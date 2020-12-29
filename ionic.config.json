@@ -1,0 +1,7 @@
+{
+  "name": "uiPoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
