@@ -1,0 +1,41 @@
+/*Font Formatting*/
+
+.esri-expand
+, .esri-widget--button > span
+, .content-frame
+, .content-frame [class*="esri-icon"]
+, .content-frame *
+{
+  color: var(--core_light); /* text color */
+  font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.content-frame .content-header {
+  color: var(--core_dark);
+}
+
+.content-item-sub {
+  font-size: initial !important;
+  font-weight: normal !important;
+}
+
+.esri-widget--button > span {
+  font-weight: bolder;
+}
+
+.esri-popup .esri-popup-header .esri-title {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+.esri-popup .esri-popup-body .esri-popup-content {
+    font-size: 14px;
+}
+
+.content-item.selected
+,.content-item.selected .content-item-sub{
+  color: var(--core-accent);
+}
